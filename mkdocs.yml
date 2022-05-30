@@ -1,0 +1,32 @@
+site_name: surfcore2
+theme:
+    icon:
+        admonition:
+            info: material/code-tags
+        logo: material/database
+        repo: fontawesome/brands/git-alt
+        tag:
+            default: material/tag
+    name: material
+    favicon: images/favicon.png
+    features:
+        - navigation.tabs
+    palette:
+        primary: blue
+        accent: light blue
+
+plugins:
+    - tags
+    - search
+
+markdown_extensions:
+    - tables
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - admonition
+    - pymdownx.inlinehilite
+    - pymdownx.details
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+repo_url: https://github.com/surfdev7/surfcore2
